@@ -1,0 +1,66 @@
+@import url("reset.css");
+*{
+  color: blue;
+}
+.title,
+.subtitle,
+.subhead{
+  color: fuchsia;
+}
+
+.title{
+  color: lawngreen;
+}
+
+.block.introduction {
+  color: crimson;
+}
+
+a[class$="nk"]{
+  color: lightseagreen;
+}
+
+.block span{
+  color: aqua;
+}
+
+.content > h2 {
+  color: darkgreen;
+}
+
+.subhead {
+  color: deeppink;
+}
+
+.item {
+  color: black;
+}
+
+#effect p{
+  color: lightseagreen;
+}
+
+#posture > p{
+  color: brown;
+}
+.block .subtitle{
+  color: chartreuse;
+}
+
+.text ~ p{
+  color: darkorange;
+}
+.disease + p{
+color: rosybrown;
+}
+.workout > p{
+  color: darkred;
+}
+
+.workout *{
+  color: deepskyblue;
+} 
+
+[class*="item"] {
+  color: coral;
+}
