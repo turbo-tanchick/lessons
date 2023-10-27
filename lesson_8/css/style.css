@@ -1,0 +1,362 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+.header li {
+  color: yellow;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: inline-block;
+  background-color: blue;
+}
+/* Practice */
+.practice {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.color {
+  background-color: aqua;
+  /* background-color: transparent; */
+  margin-bottom: 50px;
+}
+.image-gradient {
+  padding: 20px;
+  margin-bottom: 100px;
+  /*   background-image: url("../img/girl.jpg");
+ /*  background-repeat: repeat; */
+  /*  background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: no-repeat; */
+
+  /* background-image: linear-gradient(129deg, rgba(238,174,202,1) 0%, rgba(148,233,168,1) 100%);
+background-position: 0 0; */
+
+  /* background-position: 50% 50%; */
+  /* background-position: center; */
+
+  /* background-attachment: fixed; */
+  /* background-attachment: scroll; */
+
+  /* background-size: contain; */
+  /* background-size: cover; */
+  /* background-size: auto 500px; */
+
+  /* background: yellowgreen url("../img/girl.jpg") 50% 50% / auto 500px no-repeat fixed; */
+
+  /* background: blueviolet radial-gradient(circle, rgba(187,255,89,1) 33%, rgba(148,233,168,1) 100%) top right / 100px 200px no-repeat; */
+
+  background:
+    url("../img/girl.jpg") center / 200px auto no-repeat,
+    url("../img/flower.jpg") center / contain no-repeat,
+    linear-gradient(90deg, rgba(63, 94, 251, 1) 20%, rgba(226, 252, 70, 1) 86%);
+}
+
+/* Part #1 */
+.block {
+  max-width: 645px;
+  margin: 0 auto 100px;
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.block-subhead {
+  color: #37393f;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.rectangle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+  margin-right: 6px;
+}
+
+.block-title {
+  max-width: 413px;
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 20px;
+}
+.block-text {
+  margin-bottom: 20px;
+}
+
+.block-text p {
+  margin-bottom: 15px;
+  line-height: 1.46;
+}
+
+.block-list {
+  margin-bottom: 43px;
+}
+
+.block-list li {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 20px;
+  line-height: 1.65;
+  padding-left: 35px;
+  margin-bottom: 23px;
+  background: url("../img/Vector.svg") 0 3px no-repeat;
+}
+.block-about {
+  font-size: 0;
+  margin-bottom: 37px;
+}
+
+.block-about .box {
+  display: inline-block;
+  font-size: 16px;
+  max-width: 296px;
+  border: 1px solid #e3e3e3;
+}
+
+.box-1 {
+  padding: 31px 32px 32px 90px;
+  background: url("../img/icon.svg") 32px 32px no-repeat;
+  margin-right: 21px;
+}
+
+.box-2 {
+  padding: 31px 37px 32px 90px;
+  background: url("../img/icon-2.svg") 37px 32px no-repeat;
+}
+
+.box .subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.36;
+}
+
+.box p {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.block-link {
+  max-width: 184px;
+  padding: 21px 27px 22px;
+  background-color: #6b77e5;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Part  #2 */
+.section {
+  max-width: 1284px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-text {
+  max-width: 852px;
+  margin: 0 auto 47px;
+}
+.section-text .subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #37393f;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.section-text .subhead {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  color: #37393f;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.section-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.46;
+  color: #7d7d7d;
+  text-align: center;
+}
+.section-block {
+  font-size: 0;
+}
+
+.section-box {
+  min-width: 384px;
+  min-height: 582px;
+  display: inline-block;
+  padding-top: 525px;
+  margin-bottom: 58px;
+  margin-right: 34px;
+}
+
+.section-box h4 {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27%;
+  margin-bottom: 15px;
+}
+
+.section-box p {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.46;
+  background: url("../img/calendar.svg") no-repeat;
+  padding-left: 27px;
+}
+
+.section-box-1 {
+  background: url("../img/block1.jpg") no-repeat;
+}
+
+.section-box-2 {
+  background: url("../img/block2.jpg") no-repeat;
+}
+
+.section-box-3 {
+  background: url("../img/block3.jpg") no-repeat;
+}
+
+.section-box-4 {
+  background: url("../img/block4.jpg") no-repeat;
+}
+.section-box-5 {
+  background: url("../img/block5.jpg") no-repeat;
+}
+
+.section-box-6 {
+  background: url("../img/block6.jpg") no-repeat;
+}
+
+/* Part #3 */
+
+.wrap {
+  max-width: 1240px;
+  padding-left: 21px;
+  margin: 0 auto 100px;
+  background: url("../img/line.png") no-repeat;
+}
+
+.wrap-title,
+.wrap-subtitle {
+  font-family: "Core Sans C", sans-serif;
+  font-weight: 600;
+  line-height: 33.5px;
+}
+
+.wrap-title {
+  font-size: 28px;
+  letter-spacing: 0.56px;
+  color: #3c4242;
+  margin-bottom: 30px;
+}
+
+.wrap-subtitle,
+.wrap-text {
+  color: #807d7e;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+
+.wrap-text {
+  font-family: "Causten", sans-serif;
+  line-height: 33.5px;
+  margin-bottom: 25px;
+}
+
+.wrap-subtitle {
+  margin-bottom: 25px;
+}
+
+.wrap p {
+  margin-bottom: 20px;
+}
+
+/* Part #4 */
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto 100px;
+  font-size: 0;
+}
+
+.bl-1 {
+  max-width: 613px;
+  display: inline-block;
+  background: url("../img/leaves.jpg") no-repeat;
+  padding: 183px 74px 175px;
+}
+
+.bl-1 h2 {
+  max-width: 466px;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.bl-1 p {
+  max-width: 451px;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.bl-1 a {
+  max-width: 168px;
+  padding: 12px 44px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #3c4242;
+  text-align: center;
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bl-2 {
+  display: inline-block;
+  max-width: 626px;
+  vertical-align: top;
+}
+
+.footer {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.footer a {
+  display: block;
+  text-align: center;
+  font-family: "Causten", sans-serif;
+  font-size: 24px;
+  color: chartreuse;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(118, 9, 121, 1) 35%, rgba(255, 0, 245, 1) 100%);
+}
