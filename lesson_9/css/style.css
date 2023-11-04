@@ -1,0 +1,602 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+  font-size: 24px;
+}
+.header {
+  max-width: 1200px;
+  text-align: center;
+  margin: 15px auto 40px;
+}
+
+.header li {
+  display: inline-block;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.header li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.header a:focus {
+  outline: 10px dotted lightseagreen;
+  background-color: yellowgreen;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* .practice */
+
+.practice .title {
+  max-width: 1200px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto 25px;
+}
+.practice .title:hover {
+  text-decoration: underline;
+  background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 235, 201, 1) 35%, rgba(255, 0, 245, 1) 100%);
+  color: aliceblue;
+}
+.practice a {
+  color: red;
+}
+
+.practice a:hover {
+  color: violet;
+  text-decoration: underline;
+  background-color: yellow;
+}
+.practice a:active {
+  background-color: aquamarine;
+}
+.practice a:visited {
+  color: blue;
+}
+.practice p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.practice {
+  margin-bottom: 20px;
+}
+.practise-target {
+  max-width: 1000px;
+  font-size: 0;
+}
+
+.box-1,
+.box-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+.link {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.link:hover {
+  background-color: navajowhite;
+}
+
+.text {
+  max-width: 500px;
+  font-size: 18px;
+  text-align: center;
+  background-color: yellowgreen;
+  color: red;
+  visibility: hidden;
+}
+
+.text:target {
+  visibility: visible;
+}
+
+.text2 {
+  max-width: 500px;
+  font-size: 18px;
+  text-align: center;
+  background-color: blueviolet;
+  color: gold;
+  visibility: hidden;
+}
+
+.text2:target {
+  visibility: visible;
+}
+.practise-target::after {
+  content: "";
+  background: url("../img/gratis.png") 312px 0 no-repeat;
+  width: 688px;
+  height: 134px;
+  display: inline-block;
+}
+.practise-target {
+  margin-bottom: 30px;
+}
+
+/* part #1 */
+
+.block {
+  max-width: 692px;
+  margin: 0 auto 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.27;
+  color: #7d7d7d;
+}
+
+.block-subhead {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #37393f;
+  margin-bottom: 12px;
+}
+
+.block-reason p:first-of-type {
+  margin-bottom: 42px;
+}
+
+.block-reason p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b77e5;
+  margin-bottom: 12px;
+}
+
+.block-reason {
+  margin-bottom: 40px;
+}
+
+.block-benefits {
+  font-size: 0;
+  margin-bottom: 48px;
+}
+.benefit-img,
+.benefit-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.benefit-img {
+  max-width: 331px;
+  margin-right: 29px;
+}
+.benefit-text {
+  max-width: 332px;
+}
+
+.benefit-text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.block-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #37393f;
+  margin-bottom: 15px;
+}
+
+.benefit-text p:first-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #40ddb6;
+  margin-bottom: 21px;
+}
+
+.block-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.block-item::before {
+  content: "";
+  background: url("../img/icon.svg") 0 0 no-repeat;
+  display: inline-block;
+  width: 27px;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* part #2 */
+.box {
+  max-width: 675px;
+  margin: 0 auto 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.46;
+  color: #7d7d7d;
+}
+
+.box-caption {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #37393f;
+  margin-bottom: 16px;
+}
+
+.box-caption::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+}
+
+.box-subhead {
+  max-width: 414px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  color: #37393f;
+  margin-bottom: 10px;
+}
+
+.box-text p:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.box-text {
+  margin-bottom: 46px;
+}
+
+.box-item {
+  border: 1px solid #e3e3e3;
+  padding: 28px 40px 28px 37px;
+  font-size: 0;
+}
+
+.box-list .box-item:not(:last-child) {
+  margin-bottom: 31px;
+}
+
+.box-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #37393f;
+  margin-bottom: 12px;
+}
+.item-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.46;
+  color: #7d7d7d;
+}
+
+.box-list .box-item::before {
+  content: "";
+  background: url("../img/icon.svg") 0 0 no-repeat;
+  display: inline-block;
+  width: 27px;
+  height: 28px;
+  vertical-align: top;
+  margin-right: 19px;
+}
+.item-box {
+  max-width: 550px;
+  display: inline-block;
+}
+.box-list {
+  margin-bottom: 48px;
+}
+
+.box-button {
+  max-width: 200px;
+  padding: 21px 35px 22px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #6b77e5;
+}
+
+.section {
+  max-width: 1220px;
+  margin: 0 auto 50px;
+  font-size: 0;
+}
+
+.section-caption {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #37393f;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  color: #37393f;
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+.section-caption::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+}
+
+.section-block {
+  max-width: 386px;
+  display: inline-block;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.section-info {
+  padding: 22px 43px 58px;
+  background-color: #f4f4f4;
+}
+.section .section-block:not(:last-child) {
+  margin-right: 31px;
+}
+
+.section .section-block-1::before {
+  content: "";
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: url("../img/icon1.svg") 0 0 no-repeat;
+  margin-top: -36px;
+}
+
+.section .section-block-2::before {
+  content: "";
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: url("../img/icon2.svg") 0 0 no-repeat;
+  margin-top: -36px;
+}
+
+.section .section-block-3::before {
+  content: "";
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: url("../img/icon3.svg") 0 0 no-repeat;
+  margin-top: -36px;
+}
+
+.section-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.27;
+  color: #37393f;
+  margin-bottom: 16px;
+}
+
+.section-block p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.46;
+  color: #7d7d7d;
+  margin-bottom: 37px;
+}
+.section-link {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6b77e5;
+}
+
+.wrap {
+  max-width: 1214px;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.wrap-title,
+.wrap-column-1,
+.wrap-column-2 {
+  display: inline-block;
+}
+.wrap-column-1 {
+  margin-right: 55px;
+}
+.wrap-title {
+  max-width: 464px;
+  font-family: "Cormorant Infant", serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000;
+  margin-right: 22px;
+  vertical-align: top;
+  padding-top: 150px;
+}
+
+.wrap-title::after {
+  content: "";
+  display: block;
+  margin-top: 4px;
+  height: 2px;
+  width: 65%;
+  background-color: #000;
+}
+.wrap-subtitle {
+  max-width: 339px;
+  font-family: "Cormorant Infant", serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.13;
+  color: #000;
+}
+.wrap-box-1,
+.wrap-box-2 {
+  max-width: 334px;
+  border: 1px solid #000;
+  margin-bottom: 34px;
+}
+
+.wrap-img {
+  margin-right: -10px;
+  margin-left: 10px;
+  margin-top: 9px;
+  margin-bottom: -9px;
+}
+
+.wrap-column-1 {
+  padding-top: 32px;
+  vertical-align: top;
+}
+
+.wrap-text {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000;
+}
+.wrap-subtitle {
+  margin-bottom: 31px;
+}
+.footer {
+  max-width: 1200px;
+}
+.footer h2 {
+  font-family: "Press Start 2p", sans-serif;
+  font-size: 36px;
+  color: aquamarine;
+  text-transform: uppercase;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.game-field {
+  max-width: 500px;
+  height: 500px;
+  background-color: orangered;
+  margin: 0 auto;
+  font-size: 0;
+}
+.game-start {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  color: yellow;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.game-over {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+  color: blue;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.game-line,
+.game-over {
+  visibility: hidden;
+}
+
+.game-ib {
+  display: inline-block;
+}
+.line-1 {
+  width: 50px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.line-2 {
+  width: 250px;
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.line-3 {
+  width: 100px;
+  height: 150px;
+  background-color: blueviolet;
+  margin-left: 200px;
+}
+
+.line-4 {
+  width: 300px;
+  height: 15px;
+  background-color: blueviolet;
+  margin-left: 200px;
+}
+
+.line-5 {
+  width: 25px;
+  height: 50px;
+  background-color: blueviolet;
+  margin-left: 475px;
+}
+
+.line-6 {
+  width: 100%;
+  height: 25px;
+  background-color: blueviolet;
+}
+
+.line-7 {
+  width: 25px;
+  height: 60px;
+  background-color: blueviolet;
+}
+
+.line-8 {
+  width: 450px;
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.game-start:hover + .line-1,
+.line-1:hover,
+.line-1:hover + .line-2,
+.line-2:hover,
+.line-2:hover + .line-3,
+.line-3:hover,
+.line-3:hover + .line-4,
+.line-4:hover,
+.line-4:hover + .line-5,
+.line-5:hover,
+.line-5:hover + .line-6,
+.line-6:hover,
+.line-6:hover + .line-7,
+.line-7:hover,
+.line-7:hover + .line-8,
+.line-8:hover,
+.line-8:hover + .game-over {
+  visibility: visible;
+}
+
+
