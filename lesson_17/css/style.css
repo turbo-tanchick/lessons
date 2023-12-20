@@ -1,0 +1,345 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.products {
+  background-color: #0e333d;
+  padding: 94px 0;
+}
+
+.products__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 48px;
+  line-height: 1.27;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.products__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.27;
+  color: #ebebeb;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.menu-products {
+  display: flex;
+  flex: 0 1 350px;
+  max-width: 350px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 77px;
+}
+
+@media (max-width: 479.98px) {
+  .menu-products {
+    max-width: 100%;
+  }
+}
+
+.menu-products__item {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.27;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-products__item:hover {
+  text-decoration-line: underline;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 0 -15px;
+}
+
+.cards__item {
+  padding: 0 15px;
+  flex: 1 0 25%;
+}
+
+@media (max-width: 991.98px) {
+  .cards__item {
+    flex: 1 0 33.3%;
+    max-width: 33.3%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cards__item {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .cards__item {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .products {
+    padding: 54px 0;
+  }
+}
+
+.cards__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  min-height: 100%;
+}
+
+.cards__image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 271 / 270;
+  object-fit: cover;
+}
+
+.cards__about {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.earrings {
+  padding: 167px 0;
+}
+
+@media (max-width: 479.98px) {
+  .earrings {
+    padding: 54px 0;
+  }
+
+  .earrings__title {
+    font-size: 38px;
+  }
+}
+
+.earrings__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 58px;
+  color: #291403;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+@media (max-width: 479.98px) {
+  .earrings__title {
+    font-size: 48px;
+  }
+}
+
+.earrings__subtitle {
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #818181;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.cards__about--earrings {
+  color: #000;
+}
+
+.earrings__cards {
+  margin-bottom: 76px;
+}
+
+.earrings__btn {
+  padding: 12px 42.5px;
+  background-color: #ff7a49;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.87;
+  color: #fff;
+  max-width: 165px;
+  display: block;
+  margin: 0 auto;
+}
+
+.earrings__btn:hover {
+  animation: rotate-center 0.6s ease-in-out 0.3s both;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rings {
+  background: #fefaf4 url("../img/rings/flower.png") bottom right no-repeat;
+  padding: 125px 0 114px;
+}
+
+@media (max-width: 479.98px) {
+  .rings {
+    background-image: none;
+    padding: 55px 0 44px;
+  }
+}
+
+.rings__container {
+  max-width: 1197px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.rings__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 58px;
+  color: #000;
+  margin-bottom: 27px;
+}
+
+@media (max-width: 479.98px){
+  .rings__title{
+    font-size: 48px;
+  }
+}
+
+.rings__subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #606060;
+  margin-bottom: 53px;
+}
+
+.cards-rings {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  margin: 0 -24px;
+}
+
+.cards-rings__item {
+  padding: 0 24px;
+  flex: 1 0 33.3%;
+}
+
+@media (max-width: 767.98px) {
+  .cards-rings__item {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .cards-rings__item {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+.cards-rings__wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  row-gap: 16px;
+}
+
+.cards-rings__image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 357 / 240;
+  object-fit: cover;
+}
+
+.cards-rings__head {
+  font-family: "DM Serif Text", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.cards-rings__about {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cards-rings__link {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cards-rings__more {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #f55529;
+  transition: all 0.3s;
+}
+
+@media (max-width: 479.98px){
+  .cards-rings__more{
+    font-size: 20px;
+  }
+}
+
+.cards-rings__more:hover {
+  border-bottom: 3px solid #f55529;
+}
+
+.cards-rings__arrow:hover {
+  animation: rotate-center 0.6s ease-in-out 0.3s both;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.header__title,
+.footer__text {
+  text-align: center;
+  font-size: 24px;
+  color: #818181;
+}
