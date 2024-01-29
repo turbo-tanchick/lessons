@@ -54,7 +54,7 @@
       z-index: 2;
       content: "";
       @include position;
-      background-color: rgba(158, 147, 76, 0.29);
+      background-color: #0000004c;
       border-radius: $rounding;
       display: none;
       @media (max-width: 570px) {
@@ -109,6 +109,7 @@
 
 .page {
   &__zone {
+    margin-bottom: 60px;
   }
 }
 .zone {
@@ -195,7 +196,7 @@
       z-index: 2;
       content: "";
       @include position;
-      background-color: rgba(216, 202, 208, 0.29);
+      background-color: rgba(30, 28, 28, 0.29);
       border-radius: $rounding;
       display: none;
       @media (max-width: 570px) {
@@ -351,6 +352,64 @@
     @media (max-width: 1142px) {
       margin-bottom: 18px;
     }
+  }
+}
+.page {
+  &__brands {
+  }
+}
+.brands {
+  &__container {
+    border-radius: 12px;
+    border:
+      1.069px solid,
+      #323232;
+    background: #3c4242;
+    padding: 43px 124px 60px;
+  }
+  &__title {
+    @include fontProperty(#fff, "Core Sans C", 50px, 800, 1);
+    margin-bottom: 26px;
+    text-align: center;
+     @media (max-width: 570px) {
+     font-size: 40px;
+     margin-bottom: 37px;
+    }
+  }
+  &__label {
+    @include fontProperty(#fff, "Causten", 22px, 400, 1);
+    margin-bottom: 67px;
+    text-align: center;
+    @media (max-width: 570px) {
+     font-size: 18px;
+     margin-bottom: 37px;
+    }
+    & span {
+      color: #fbd103;
+    }
+  
+  }
+  &__logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    @media (max-width: 610px) {
+      justify-content: center;
+    }
+  }
+  &__img {
+    flex: 0 0 15%;
+    min-width: 177px;
+    min-height: 85px;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  &__image {
   }
 }
 

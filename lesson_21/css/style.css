@@ -180,7 +180,7 @@ textarea {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(158, 147, 76, 0.29);
+  background-color: rgba(0, 0, 0, 0.2980392157);
   border-radius: 12px;
   display: none;
 }
@@ -247,6 +247,10 @@ textarea {
   background-color: transparent;
   display: block;
   margin-bottom: 41px;
+}
+
+.page__zone {
+  margin-bottom: 60px;
 }
 
 .zone__title {
@@ -350,7 +354,7 @@ textarea {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(216, 202, 208, 0.29);
+  background-color: rgba(30, 28, 28, 0.29);
   border-radius: 12px;
   display: none;
 }
@@ -546,4 +550,80 @@ textarea {
   .zone__label {
     margin-bottom: 18px;
   }
+}
+
+.brands__container {
+  border-radius: 12px;
+  border: 1.069px solid, #323232;
+  background: #3c4242;
+  padding: 43px 124px 60px;
+}
+.brands__title {
+  color: #fff;
+  font-family: "Core Sans C";
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 26px;
+  text-align: center;
+}
+@media (max-width: 570px) {
+  .brands__title {
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+}
+.brands__label {
+  color: #fff;
+  font-family: "Causten";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 67px;
+  text-align: center;
+}
+@media (max-width: 570px) {
+  .brands__label {
+    font-size: 18px;
+    margin-bottom: 37px;
+  }
+}
+.brands__label span {
+  color: #fbd103;
+}
+.brands__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 610px) {
+  .brands__logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.brands__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
+  min-width: 177px;
+  min-height: 85px;
+  border-radius: 12px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
