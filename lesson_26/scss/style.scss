@@ -1,0 +1,42 @@
+@import "reset.scss";
+
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  & > main {
+    flex-grow: 1;
+  }
+}
+/* body{
+  opacity: 0;
+  &.not-transparent{
+    opacity: 1;
+  }
+} */
+
+.header{
+  padding: 20px 0;
+  background-color: pink;
+  text-align: center;
+}
+
+.footer{
+  padding: 20px 0;
+  background-color: blue;
+  text-align: center;
+}
+.text{
+  font-size: 32px;
+}
+.item{
+  background-color: greenyellow;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orangered;
+}
